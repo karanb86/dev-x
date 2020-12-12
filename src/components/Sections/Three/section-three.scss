@@ -2,7 +2,9 @@
   background: var(--bg-dark);
   height: 100vh;
   padding-top: 30px;
-
+  @media only screen and(max-width: 750px) {
+    height: 130vh;
+  }
   .data {
     height: 83%;
     img {
@@ -11,6 +13,25 @@
     }
     .right {
       width: 45%;
+    }
+    @media only screen and(max-width: 1050px) {
+      img {
+        height: 50%;
+      }
+    }
+    @media only screen and(max-width: 920px) {
+      img {
+        height: 35%;
+      }
+    }
+    @media only screen and(max-width: 786px) {
+      flex-direction: column;
+      .right {
+        width: 90%;
+      }
+      .left {
+        width: 90%;
+      }
     }
   }
 }

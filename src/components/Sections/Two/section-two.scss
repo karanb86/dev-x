@@ -1,6 +1,7 @@
 .section-two {
   height: 100vh;
   background: var(--bg-light);
+  padding: 0 20px;
 
   img {
     height: 65%;
@@ -17,5 +18,18 @@
         outline: none;
       }
     }
+  }
+  @media only screen and(max-width: 1050px) {
+    img {
+      height: 50%;
+    }
+  }
+  @media only screen and(max-width: 920px) {
+    img {
+      height: 35%;
+    }
+  }
+  @media only screen and(max-width: 786px) {
+    flex-direction: column;
   }
 }

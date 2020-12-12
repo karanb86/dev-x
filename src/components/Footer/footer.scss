@@ -3,6 +3,15 @@
   background: var(--bg-dark);
   height: 50vh;
 
+  @media only screen and(max-width: 640px) {
+    height: fit-content;
+    padding: 10px;
+  }
+
+  .spacer {
+    margin: 0 15px;
+  }
+
   img {
     height: 100px;
   }

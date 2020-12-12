@@ -43,6 +43,10 @@
     }
   }
 
+  .menu-toggle {
+    display: none;
+  }
+
   @media only screen and(max-width: 1010px) {
     padding: 0 20px;
     input {
@@ -71,12 +75,12 @@
       }
     }
   }
-  @media only screen and(max-width: 718px) {
-    .menu {
-      span {
-        font-size: 11px;
-        margin: 0 10px;
-      }
+  @media only screen and(max-width: 768px) {
+    .menu, input {
+      display: none;
+    }
+    .menu-toggle {
+      display: block;
     }
   }
 }
