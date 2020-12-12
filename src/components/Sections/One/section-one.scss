@@ -1,0 +1,21 @@
+.section-one {
+  height: calc( 100vh - 60px );
+  background: var(--bg-dark);
+
+  .left {
+    h1, p {
+      margin-bottom: 30px;
+    }
+    input {
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+  img {
+    height: 65%;
+  }
+}

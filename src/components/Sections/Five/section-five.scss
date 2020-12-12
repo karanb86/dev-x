@@ -1,0 +1,14 @@
+.section-five {
+  height: 100vh;
+  background: var(--bg-dark);
+  .data {
+    height: 100%;
+    img {
+      height: 60%;
+      border-radius: 15px;
+    }
+    .right {
+      width: 45%;
+    }
+  }
+}

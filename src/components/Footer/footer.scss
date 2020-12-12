@@ -1,0 +1,20 @@
+.footer-component {
+  border-top: 4px solid var(--font-green);
+  background: var(--bg-dark);
+  height: 50vh;
+
+  img {
+    height: 100px;
+  }
+
+  .list {
+    a {
+      text-decoration: none;
+      margin: 5px 0;
+      width: fit-content;
+    }
+    .head {
+      border-bottom: 2px solid var(--font-green);
+    }
+  }
+}

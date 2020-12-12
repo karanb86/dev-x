@@ -1,0 +1,21 @@
+.section-two {
+  height: 100vh;
+  background: var(--bg-light);
+
+  img {
+    height: 65%;
+  }
+  .right {
+    h1, p {
+      margin-bottom: 30px;
+    }
+    input {
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+}
